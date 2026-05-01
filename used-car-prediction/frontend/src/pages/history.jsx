@@ -1,10 +1,6 @@
 import React from 'react';
+import HistoryTable from '../components/HistoryTable';
 
 export default function History() {
-  return (
-    <div className="history">
-      <h1>Prediction History</h1>
-      {/* History content */}
-    </div>
-  );
+  return <HistoryTable />;
 }
